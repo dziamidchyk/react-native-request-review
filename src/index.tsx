@@ -24,6 +24,6 @@ const RequestReview = RequestReviewModule
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return RequestReview.multiply(a, b);
+export function requestReview(): void {
+  return RequestReview.requestReview();
 }

@@ -2,7 +2,7 @@
   "name": "react-native-request-review",
   "version": "0.0.1",
   "description": "React Native library for requesting App Store and Google Play reviews",
-  "source": "./src/index.ts",
+  "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
