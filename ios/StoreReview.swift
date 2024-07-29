@@ -1,8 +1,8 @@
 //
-//  RequestReview.swift
+//  StoreReview.swift
 //  react-native-request-review
 //
-//  Created by Arseni Demidchik on 27.07.24.
+//  Created by Arseni Demidchik on 29.07.24.
 //
 
 import StoreKit
