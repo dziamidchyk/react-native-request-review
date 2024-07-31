@@ -43,7 +43,22 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "app-review",
+    "app-store-review",
+    "google-play-review",
+    "in-app-review",
+    "rating",
+    "review",
+    "request-review",
+    "mobile-app",
+    "app-feedback",
+    "user-feedback",
+    "app-rating",
+    "app-promotion",
+    "user-engagement",
+    "app-store-optimization",
+    "google-play-optimization"
   ],
   "repository": {
     "type": "git",
