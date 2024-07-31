@@ -9,7 +9,7 @@ import java.util.HashMap
 
 class RequestReviewPackage : TurboReactPackage() {
   override fun getModule(name: String, reactContext: ReactApplicationContext): NativeModule? {
-    return if (name == RequestReviewModule.NAME) {
+    return if (name == RequestReviewModuleImpl.NAME) {
       RequestReviewModule(reactContext)
     } else {
       null
@@ -20,9 +20,9 @@ class RequestReviewPackage : TurboReactPackage() {
     return ReactModuleInfoProvider {
       val moduleInfos: MutableMap<String, ReactModuleInfo> = HashMap()
       val isTurboModule: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
-      moduleInfos[RequestReviewModule.NAME] = ReactModuleInfo(
-        RequestReviewModule.NAME,
-        RequestReviewModule.NAME,
+      moduleInfos[RequestReviewModuleImpl.NAME] = ReactModuleInfo(
+        RequestReviewModuleImpl.NAME,
+        RequestReviewModuleImpl.NAME,
         false,  // canOverrideExistingModule
         false,  // needsEagerInit
         true,  // hasConstants
